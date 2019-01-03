@@ -1,0 +1,30 @@
+body{
+		background-image:url(./images/background.gif);					
+	}
+.center{
+	text-align:center;
+}
+.table{
+	 margin: auto;
+	 text-align:center;	 	 
+}	 
+.right{
+	text-align:right;
+	margin-right:50px;	
+}	 
+a:link {
+	text-decoration:none;
+	color:#000000;
+}
+a:visited {
+	text-decoration:none;
+	color:#400000;	
+}
+a:hover {
+	text-decoration:underline;
+	color:#FF00FF;
+}
+a:active {
+	text-decoration:underline;
+	color:#0000FF;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<c3p0-config>  
+  <default-config>    
+    <property name="user">root</property>  
+    <property name="password">root</property>  
+    <property name="driverClass">com.mysql.cj.jdbc.Driver</property>  
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/myshop?serverTimezone=UTC&amp;useSSL=FALSE&amp;allowPublicKeyRetrieval=true</property>  
+    <property name="initialPoolSize">10</property>   
+    <property name="maxPoolSize">100</property>  
+    <property name="minPoolSize">10</property>  
+  </default-config>  
+</c3p0-config>  
